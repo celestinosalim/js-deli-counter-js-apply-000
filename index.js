@@ -1,6 +1,5 @@
 
 function takeANumber(katzDeliLine, number) {
-  number = 0
   katzDeliLine.push(number);
   return(`Welcome, You are number ${katzDeliLine.length} in line.`); //Length gives you the last index plus one
 } //when we wrap strings in back ticks we can use placeholders and insert variables or evaluated javascript
